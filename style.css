@@ -1,24 +1,35 @@
-header{
-    .container-fluid{
-        a{
-            font-size: 13px;
-        }
+header {
+  .container-fluid {
+    a {
+      font-size: 13px;
     }
+  }
 }
 
-.btn{
-    margin-top: 5px;
-    margin-bottom: 5px;
+.btn {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.fa-square-pen {
+  font-size: 30px;
+  margin-top: 3px;
+}
+
+.fa-square-minus{
+    font-size: 30px;
+  margin-top: 3px;
+  margin-left: 5px;
 }
 
 @media screen and (min-width: 1440px) {
-    .navbar-toogler-xxl{
-            display: none;
-        }
+  .navbar-toogler-xxl {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 992px) {
-    .text-none{
-            display: none;
-        }
+  .text-none {
+    display: none;
+  }
 }
