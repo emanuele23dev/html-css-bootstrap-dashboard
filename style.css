@@ -16,13 +16,25 @@ header {
   margin-top: 3px;
 }
 
+.fa-square-pen:hover{
+    color: rgb(52, 52, 52);
+}
+
 .fa-square-minus{
     font-size: 30px;
   margin-top: 3px;
   margin-left: 5px;
 }
 
-@media screen and (min-width: 1440px) {
+.fa-square-minus:hover{
+    color: rgb(52, 52, 52);
+}
+
+.tab-none{
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
   .navbar-toogler-xxl {
     display: none;
   }
@@ -33,3 +45,10 @@ header {
     display: none;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .tab-none{
+    display: table-cell;
+  }
+}
+
