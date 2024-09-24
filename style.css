@@ -42,6 +42,12 @@ header {
   display: none;
 }
 
+.under-line{
+  width: 1290px;
+  margin-left: 15px;
+  
+}
+
 @media screen and (min-width: 992px) {
   .navbar-toogler-xxl {
     display: none;
