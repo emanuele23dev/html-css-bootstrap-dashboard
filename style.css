@@ -6,6 +6,11 @@ header{
     }
 }
 
+.btn{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 @media screen and (min-width: 1440px) {
     .navbar-toogler-xxl{
             display: none;
