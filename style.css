@@ -6,13 +6,13 @@ header {
   }
 }
 
-.text-color{
+.text-color {
   color: rgb(160, 160, 160);
 }
 
-.text-none:hover{
-        color: rgb(255, 255, 255);
-      }
+.text-none:hover {
+  color: rgb(255, 255, 255);
+}
 
 .btn {
   margin-top: 5px;
@@ -24,28 +24,22 @@ header {
   margin-top: 3px;
 }
 
-.fa-square-pen:hover{
-    color: rgb(52, 52, 52);
+.fa-square-pen:hover {
+  color: rgb(52, 52, 52);
 }
 
-.fa-square-minus{
-    font-size: 30px;
+.fa-square-minus {
+  font-size: 30px;
   margin-top: 3px;
   margin-left: 5px;
 }
 
-.fa-square-minus:hover{
-    color: rgb(52, 52, 52);
+.fa-square-minus:hover {
+  color: rgb(52, 52, 52);
 }
 
-.tab-none{
+.tab-none {
   display: none;
-}
-
-.under-line{
-  width: 1290px;
-  margin-left: 15px;
-  
 }
 
 @media screen and (min-width: 992px) {
@@ -61,8 +55,10 @@ header {
 }
 
 @media screen and (min-width: 768px) {
-  .tab-none{
+  .tab-none {
     display: table-cell;
   }
+  .under-line {
+    width: 600px;
+  }
 }
-
