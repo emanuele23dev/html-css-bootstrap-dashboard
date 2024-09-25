@@ -58,7 +58,4 @@ header {
   .tab-none {
     display: table-cell;
   }
-  .under-line {
-    width: 600px;
-  }
 }
